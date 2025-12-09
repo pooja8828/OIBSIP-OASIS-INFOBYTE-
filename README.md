@@ -30,3 +30,14 @@ No frameworks were used — the project is made **purely with HTML, CSS, and JS.
 ┣ 📜 lp.html
 ┣ 📜 lp.css
 ┣ 📜 lp.js
+
+
+🚀 How to Run the Project
+
+1] Download or clone the repository:
+
+git clone https://github.com/pooja8828/OIBSIP-OASIS-INFOBYTE-.git
+
+2] Open lp.html in your browser.
+
+3] Enjoy the responsive landing page! 🎉
