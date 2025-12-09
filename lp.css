@@ -1,0 +1,78 @@
+
+/* ===================== style.css ===================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: #f6f7fb;
+    color: #333;
+}
+header {
+    width: 100%;
+    padding: 20px 60px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+header h2 { color: #4b57d3; font-size: 28px; font-weight: 700; }
+header nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+}
+header nav a:hover { color: #4b57d3; }
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.cta-btn {
+    padding: 12px 30px;
+    background: #4b57d3;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero-img img { width: 380px; }
+
+.features { padding: 100px 60px; background: #fff; }
+.features h2 { text-align: center; font-size: 36px; margin-bottom: 40px; }
+.feature-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; }
+.feature-box {
+    background: #f6f7fb;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+.feature-box:hover { transform: translateY(-5px); }
+footer {
+    background: #4b57d3;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
